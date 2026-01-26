@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Try `install_shanvpn.sh --help` for usage.
+# Try `install_jkvipudp.sh --help` for usage.
 #
 # (c) 2025 JKVIPUDP
 #
