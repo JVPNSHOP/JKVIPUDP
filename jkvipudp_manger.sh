@@ -10,7 +10,7 @@ WEB_DIR="/var/www/html/udpserver"
 WEB_STATUS_FILE="$WEB_DIR/online"
 WEB_APP_FILE="$WEB_DIR/online_app"
 WEB_SYSTEM_FILE="$WEB_DIR/system_info"
-DEFAULT_LIMIT="2500"
+DEFAULT_LIMIT="300"
 
 mkdir -p "$CONFIG_DIR"
 touch "$USER_DB"
@@ -1111,7 +1111,7 @@ show_banner() {
 
 show_menu() {
     echo -e "\e[1;36m----------------------------"
-    echo " SHANVPN UDP"
+    echo " JKVIP UDP"
     echo -e "----------------------------\e[0m"
     echo -e "\e[1;32m1. Add new user (with expiration date)"
     echo "2. Edit user (password / expiration date)"

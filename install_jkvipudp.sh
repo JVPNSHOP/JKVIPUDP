@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Try `install_jkvipudp.sh --help` for usage.
+# Try `install_shanvpn.sh --help` for usage.
 #
 # (c) 2025 JKVIPUDP
 #
@@ -649,11 +649,11 @@ perform_install_manager_script() {
     curl -o "$_manager_script" "https://raw.githubusercontent.com/JVPNSHOP/JKVIPUDP/main/jkvipudp_manger.sh"
     chmod +x "$_manager_script"
     
-    echo "Creating symbolic link to run the manager script using 'jueudp' command..."
+    echo "Creating symbolic link to run the manager script using 'jkvipudp' command..."
     ln -sf "$_manager_script" "$_symlink_path"
     
     echo "Manager script installed at $_manager_script"
-    echo "You can now run the manager using the 'jueudp' command."
+    echo "You can now run the manager using the 'jkvipudp' command."
 }
 
 
